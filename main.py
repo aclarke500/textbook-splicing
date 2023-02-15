@@ -3,8 +3,8 @@ f = open("text.txt", "r")
 
 sub_text = open("text_subset.txt", "w")
 
-beginning_string = "sequences of bytes encoding the low-level"
-ending_string = "microprocessors are among the most complex systems ever"
+beginning_string = "sequences of bytes encoding the low-level" #PART of line at beginning of chapter
+ending_string = "microprocessors are among the most complex systems ever" #PART of line at end of chapter
 
 writing_mode = False
 
